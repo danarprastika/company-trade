@@ -1,0 +1,5 @@
+# Canonical Event Catalog — Final
+
+Core events include: MarketDataReceived, MarketDataValidated, MarketDataRejected, NewsReceived, NewsNormalized, MarketRegimeChanged, SignalProduced, OrderIntentCreated, RiskEvaluated, RiskApproved, RiskRejected, OMSInstructionCreated, OrderSubmitted, OrderAcknowledged, OrderPartiallyFilled, OrderFilled, OrderCancelled, OrderRejected, BrokerStateChanged, ReconciliationStarted, ReconciliationMatched, ReconciliationMismatch, ReconciliationUnknown, PositionChanged, PortfolioValuationChanged, KillSwitchActivated, KillSwitchReleased, StrategyPromoted, StrategySuspended, StrategyRetired, ExperimentCreated, ExperimentCompleted, DatasetFrozen, OOSLocked, ApprovalGranted, ApprovalRejected, AgentTaskCreated, AgentTaskCompleted, AgentQuarantined, ProviderDegraded, CredentialAccessDenied, IncidentOpened, IncidentResolved, DeploymentStarted, DeploymentCompleted and DeploymentRolledBack.
+
+All events are versioned and immutable. Consumers must tolerate unknown future event fields.
