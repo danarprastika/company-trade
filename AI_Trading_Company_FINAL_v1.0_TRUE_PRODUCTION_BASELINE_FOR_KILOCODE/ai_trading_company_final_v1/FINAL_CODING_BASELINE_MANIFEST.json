@@ -1,0 +1,30 @@
+{
+  "status": "FINAL_FROZEN_READY_FOR_CODING",
+  "target": "Kilo Code",
+  "frontend": "TypeScript",
+  "backend": "Go",
+  "safety_critical_core": "Rust where justified",
+  "ai_research_backtesting": "Python",
+  "persistence": "SQL",
+  "infrastructure": "IaC",
+  "new_docs": [
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94
+  ],
+  "live_authorization": false,
+  "finality": "No more generic specification documents required; concrete implementation gaps require Change Request."
+}

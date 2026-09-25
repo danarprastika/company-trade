@@ -1,0 +1,46 @@
+{
+  "status": "FINAL_TRUE_PRODUCTION_BASELINE_READY_FOR_CODING",
+  "project_type": "long-lived AI-native proprietary trading system",
+  "mvp_only": false,
+  "frontend": {
+    "primary": [
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "optional": [
+      "Rust/WASM when justified"
+    ]
+  },
+  "backend": {
+    "primary": [
+      "Go"
+    ],
+    "safety_critical": [
+      "Rust when justified"
+    ],
+    "persistence": [
+      "SQL"
+    ]
+  },
+  "intelligence": [
+    "Python"
+  ],
+  "infrastructure": [
+    "IaC"
+  ],
+  "new_documents": [
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "live_authorization": false,
+  "finality": "No generic specification expansion; implementation-derived gaps require Change Request."
+}
